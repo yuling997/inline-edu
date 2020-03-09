@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties",
+      "name": "aliyun.sms.file",
+      "type": "com.atguigu.guli.service.sms.util.SmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties",
+      "name": "aliyun.sms.file.keyid",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties",
+      "name": "aliyun.sms.file.keysecret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties",
+      "name": "aliyun.sms.file.regionid",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties",
+      "name": "aliyun.sms.file.signname",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties",
+      "name": "aliyun.sms.file.templatecode",
+      "type": "java.lang.String"
+    }
+  ]
+}
