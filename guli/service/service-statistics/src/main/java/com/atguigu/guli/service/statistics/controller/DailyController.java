@@ -21,7 +21,7 @@ import java.util.Map;
  * @since 2020-03-02
  */
 @Api(description="统计分析管理")
-@CrossOrigin
+//@CrossOrigin
 @RestController
 @RequestMapping("/admin/statistics/daily")
 public class DailyController {

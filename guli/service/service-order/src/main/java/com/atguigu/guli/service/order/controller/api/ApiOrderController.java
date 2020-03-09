@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Api(description = "网站订单管理")
 @RestController
-@CrossOrigin
+//@CrossOrigin
 @RequestMapping("/web/order")
 @Slf4j
 public class ApiOrderController {

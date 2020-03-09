@@ -15,7 +15,7 @@ import java.util.Map;
 
 @Api(description = "网站微信支付")
 @RestController
-@CrossOrigin
+//@CrossOrigin
 @RequestMapping("/web/weixin-pay")
 @Slf4j
 public class ApiWeixinPayController {

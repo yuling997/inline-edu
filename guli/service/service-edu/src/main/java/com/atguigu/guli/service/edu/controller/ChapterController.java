@@ -23,7 +23,7 @@ import java.util.List;
  * @since 2020-02-12
  */
 @Api(description = "课程章节管理")
-@CrossOrigin //跨域
+//@CrossOrigin //跨域
 @RestController
 @RequestMapping("/admin/edu/chapter")
 public class ChapterController {

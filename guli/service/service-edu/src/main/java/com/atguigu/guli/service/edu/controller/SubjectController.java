@@ -28,7 +28,7 @@ import java.util.List;
  * @since 2020-02-12
  */
 @Api(description = "课程类别信息")
-@CrossOrigin
+//@CrossOrigin
 @RestController
 @RequestMapping("/admin/edu/subject")
 @Slf4j

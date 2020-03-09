@@ -25,7 +25,7 @@ import java.util.HashMap;
 import java.util.UUID;
 
 @Api(description = "微信登录管理")
-@CrossOrigin
+//@CrossOrigin
 @Controller
 //@RequestMapping("/api/ucenter/wx")
 @Slf4j
