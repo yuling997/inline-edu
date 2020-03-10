@@ -1,384 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfe2273d-bd3a-4f02-9337-32a8ce9ad022" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../guli-admin/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/.postcssrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/README-zh.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/build/check-versions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/build/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/build/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/build/vue-loader.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/build/webpack.base.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/build/webpack.dev.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/build/webpack.prod.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/config/dev.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/config/prod.env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/edu/chapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/edu/course.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/edu/subject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/edu/teacher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/edu/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/statistics/daily.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/api/vod/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/assets/404_images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/assets/404_images/404_cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/Hamburger/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/ImageCropper/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/ImageCropper/utils/data2blob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/ImageCropper/utils/effectRipple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/ImageCropper/utils/language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/ImageCropper/utils/mimes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/PanThumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/SvgIcon/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/Tinymce/components/editorImage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/Tinymce/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/Tinymce/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/components/Tinymce/toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/bug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/chart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/clipboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/component.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/dashboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/documentation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/drag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/example.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/excel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/guide 2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/guide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/international.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/language.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/message.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/money.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/nested.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/password.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/people.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/peoples.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/qq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/shopping.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/size.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/theme.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/tree.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/wechat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svg/zip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/icons/svgo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/store/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/store/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/styles/element-ui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/styles/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/styles/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/styles/transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/dashboard/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/course/chapter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/course/components/ChapterForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/course/components/ChapterList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/course/components/VideoForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/course/info.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/course/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/course/publish.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/subject/demo1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/subject/demo11.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/subject/demo12.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/subject/demo13.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/subject/demo1vs.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/subject/import.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/subject/list-计算属性.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/subject/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/teacher/form.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/edu/teacher/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/form/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/Layout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/components/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/components/Sidebar/Item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/components/Sidebar/Link.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/layout/mixin/ResizeHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/nested/menu1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/nested/menu1/menu1-1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/nested/menu1/menu1-2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/nested/menu1/menu1-3/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/nested/menu2/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/statistics/daily/chart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/statistics/daily/create.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/table/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/src/views/tree/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/aliyun-upload-sdk-1.5.0/aliyun-upload-sdk-1.5.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/aliyun-upload-sdk-1.5.0/lib/aliyun-oss-sdk-5.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/aliyun-upload-sdk-1.5.0/lib/es6-promise.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/default_avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/langs/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/codesample/css/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-cool.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-cry.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-embarassed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-frown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-innocent.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-kiss.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-laughing.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-money-mouth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-sealed.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-smile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-surprised.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-tongue-out.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-undecided.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-wink.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/emoticons/img/smiley-yell.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/plugins/visualblocks/css/visualblocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/content.inline.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/content.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-mobile.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce-small.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/fonts/tinymce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/img/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/img/object.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/img/trans.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/skin.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/skins/lightgray/skin.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-admin/static/tinymce4.7.5/tinymce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/api/course.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/api/member.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/api/order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/api/pay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/api/sms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/api/subject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/api/teacher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/api/vod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/activity_tab.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/bottom_rec.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/iconfont.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/nice_select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/pages-weixinpay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/sign.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/swiper-3.3.1.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/css/web.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/404.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/HF-BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/avatar-boy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/black-bg-hf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/black-mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/black-name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/c-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/d-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/default-img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/default-img_old.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/default-tea-img.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/erweima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/kyb-tip-all-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/kyb-tip-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/kyb-tip-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/loding.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/phone-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/banner-1-blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/banner-1-green.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/banner-2-blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/banner-2-green.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/c-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/one-master.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/t-p-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/three-blue.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/pic/two-green.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/qq-icon-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/qq-icon-hover-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/qq-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/s-next-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/s-prev-btn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/tipQe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/up-hf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/v-loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/v-play-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wb-icon-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wb-icon-hover-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wb-icon-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wb-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wb2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wx-icon-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wx-icon-hover-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wx-icon-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wx-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/wx2-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/img/zan-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/article/hot.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/banner/1525939573202.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295379715.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295455437.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295472860.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295506745.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295527931.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295556203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295570359.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295581911.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295592705.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442295604295.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442302831779.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/1442302852837.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/course/default.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/customer/avatar-boy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297885942.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297919077.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297927029.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297935589.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297957332.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297969808.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297977255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297987091.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442297999141.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/1442298121626.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/assets/photo/teacher/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/components/AppFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/components/AppHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/components/AppLogo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/components/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/layouts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/layouts/default.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/layouts/sign.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/middleware/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/nuxt.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/course/_id.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/course/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/order/_id.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/pay/_id.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/player/_vid.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/teacher/_id.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/teacher/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/ucenter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/ucenter/collect.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/ucenter/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/pages/ucenter/order.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/plugins/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/plugins/element-ui-plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/plugins/nuxt-swiper-plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/plugins/vue-qriously-plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/static/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/store/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guli-site/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bfe2273d-bd3a-4f02-9337-32a8ce9ad022" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/service/target/" />
     <ignored path="$PROJECT_DIR$/service/service-vod/target/" />
@@ -476,41 +99,41 @@
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guli" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service-edu" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guli" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-sms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
@@ -689,15 +312,15 @@
       <updated>1583760149136</updated>
       <workItem from="1583760152564" duration="1080000" />
       <workItem from="1583761936864" duration="650000" />
-      <workItem from="1583764559933" duration="240000" />
+      <workItem from="1583764559933" duration="978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1970000" />
+    <option name="totallyTimeSpent" value="2708000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21983914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
