@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 @Api(description = "阿里云文件管理")
-//@CrossOrigin //跨域
+@CrossOrigin //跨域
 @RestController
 @RequestMapping("/admin/oss/file")
 @Slf4j

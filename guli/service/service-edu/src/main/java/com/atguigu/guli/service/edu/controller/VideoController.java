@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.*;
  */
 
 @Api(description = "课时管理")
-//@CrossOrigin //跨域
+@CrossOrigin //跨域
 @RestController
 @RequestMapping("/admin/edu/video")
 public class VideoController {

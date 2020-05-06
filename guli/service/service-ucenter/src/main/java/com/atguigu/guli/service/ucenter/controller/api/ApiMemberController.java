@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.security.GeneralSecurityException;
 
 @Api(description = "网站会员认证")
-//@CrossOrigin
+@CrossOrigin
 @RestController
 @RequestMapping("/web/ucenter/member")
 @Slf4j

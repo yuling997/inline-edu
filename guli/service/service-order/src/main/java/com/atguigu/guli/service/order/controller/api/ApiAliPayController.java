@@ -1,9 +1,8 @@
 package com.atguigu.guli.service.order.controller.api;
 
 import com.atguigu.guli.common.base.result.R;
-import com.atguigu.guli.common.base.result.ResultCodeEnum;
+import com.atguigu.guli.service.order.service.AliPayService;
 import com.atguigu.guli.service.order.service.OrderService;
-import com.atguigu.guli.service.order.service.WeixinPayService;
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,27 +10,32 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
 
-@Api(description = "网站微信支付")
+
+@Api(description = "网站支付宝支付")
 @RestController
 @CrossOrigin
-@RequestMapping("/web/weixin-pay")
+@RequestMapping("/web/aliyun-pay")
 @Slf4j
-public class ApiWeixinPayController {
+public class ApiAliPayController {
+
 
     @Autowired
-    private WeixinPayService weixinPayService;
+    private AliPayService aliPayService;
 
     @Autowired
     private OrderService orderService;
 
+    /**
+     * 生成二维码
+     *
+     * @return
+     */
     @GetMapping("/create-native/{orderNo}")
-    public R createNative(@PathVariable String orderNo, HttpServletRequest request){
+    public R createNative(@PathVariable String orderNo, HttpServletRequest request) {
 
-        String remoteAddr = request.getRemoteAddr();
-        Map map = weixinPayService.createNative(orderNo, remoteAddr);
-        return R.ok().data(map);
+        String map = aliPayService.createNative(orderNo, request);
+        return R.ok().data(map,"map");
     }
 
     /**
@@ -50,19 +54,6 @@ public class ApiWeixinPayController {
         return null;
     }
 
-    /**
-     * 查询支付状态：此方法会被轮询调用（被定时器调用）
-     * @param orderNo
-     * @return
-     */
-    @GetMapping("/query-pay-status/{orderNo}")
-    public R queryPayStatus(@PathVariable String orderNo) {
-        Map<String, String> map = weixinPayService.queryPayStatus(orderNo);
-        if("SUCCESS".equals(map.get("trade_state"))){//支付
-            //如果支付成功则修改订单状态
-            orderService.updateOrderStatus(map);
-            return R.ok().message("支付成功");
-        }
-        return R.setResult(ResultCodeEnum.PAY_RUN); //支付中.....
-    }
+
+
 }

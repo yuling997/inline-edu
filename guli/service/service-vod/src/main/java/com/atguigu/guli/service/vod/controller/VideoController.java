@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Map;
 
 @Api(description="阿里云视频点播")
-//@CrossOrigin //跨域
+@CrossOrigin //跨域
 @RestController
 @RequestMapping("/admin/vod/video")
 @Slf4j

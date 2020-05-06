@@ -89,4 +89,18 @@ public class JwtUtils {
         }
         return true;
     }
+
+    public static String getMemberIdByJwtToken(String jwtToken) {
+
+//        if(StringUtils.isEmpty(jwtToken)) return null;
+//        try {
+//            Jws<Claims> claimsJws = Jwts.parser().setSigningKey(APP_SECRET).parseClaimsJws(jwtToken);
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            return null;
+//        }
+
+        return null;
+    }
 }

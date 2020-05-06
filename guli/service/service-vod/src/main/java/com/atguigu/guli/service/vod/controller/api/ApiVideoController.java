@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.ws.rs.Path;
 
 @Api(description = "阿里云视频播放")
-//@CrossOrigin
+@CrossOrigin
 @RestController
 @RequestMapping("/web/vod/video")
 @Slf4j
